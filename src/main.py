@@ -6,12 +6,6 @@ urls = [{
     "element_class1": 'catalog-product-details__name',
     "element2": 'li',
     "element_class2": 'catalog-prices__offer-price',
-},{
-    "url": "",
-    "element1":"",
-    "element_class1":"",
-    "element2":"",
-    "element_class2":"",
 }]
 
 def main(url):

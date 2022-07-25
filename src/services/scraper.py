@@ -3,9 +3,6 @@
 from bs4 import BeautifulSoup
 import requests
 
-# Url a la cual quiero ingresar
-url = 'https://simple.ripley.cl/tecno/celulares?source=menu&s=mdco'
-
 
 def get_html(url):
     # Obtener el html de la url

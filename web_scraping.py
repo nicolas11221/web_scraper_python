@@ -20,7 +20,6 @@ celulares = list()
 
 for i in cel:
         celulares.append(i.text)
-
 print(celulares)
 
 # Precios Celulares
@@ -30,14 +29,10 @@ precios = list()
 
 for i in pre:
     precios.append(i.text)
-
 print(precios)
-
 
 # Dataframe
 df = pd.DataFrame({'Celulares': celulares, 'Precios': precios})
-
-#
 
 # Guardar como csv
 df.to_csv('Celulares y precios')
